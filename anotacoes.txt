@@ -1,0 +1,10 @@
+Início do módulo: 20/06/2022
+Fim do módulo: 09/08/2022
+Reunião pedagógica 06/07
+
+Desenvolvimento web front-end
+Websites RESPONSIVOS, ou seja, devem se adaptar ao tamanho da tela
+
+
+
+
