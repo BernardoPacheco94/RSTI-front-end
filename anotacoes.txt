@@ -5,6 +5,9 @@ Reunião pedagógica 06/07
 Desenvolvimento web front-end
 Websites RESPONSIVOS, ou seja, devem se adaptar ao tamanho da tela
 
+Front-End -> Parte do cliente, roda no navegador
+Back-End -> Roda no servidor
 
+https://www.w3c.br/ -> documentação para web
 
-
+WireFrame -> Estrutura visual do site
