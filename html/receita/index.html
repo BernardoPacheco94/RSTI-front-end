@@ -2,17 +2,78 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="res\icones\prato.png" />
         <title>Receita</title>
+        <style>
+            body{
+                font-family: arial, helvetica, sans-serif;
+                background-image: linear-gradient(to bottom, #D90D32, #F29C50, #02734A 49%, #FFFFFF);
+                background-attachment: fixed;
+                color: #011a10;
+                
+            }
+
+            img, video, iframe{
+                box-shadow: 7px 6px 7px rgba(0, 0, 0, 0.466); 
+                border-radius: 15px;                
+                margin: 10px;
+            }
+
+            audio{
+                box-shadow: 7px 6px 7px rgba(0, 0, 0, 0.466);
+                border-radius: 50px;  
+                width: 480px;
+
+            }
+
+            h1, h2, h3 {
+                text-decoration: underline;
+                text-align: center;
+                color: #5f0616;
+                text-shadow: 1px 1px #07070733;
+            }
+
+            ul {
+                list-style-type: '\1F32E';
+            }
+
+            
+            
+        </style>
     </head>
     <!-- Centralizar o alinhamento(Não serve para a lista por causa dos marcadores) -->
     <!-- style="text-align: center" -->
     <body>
-        <h1>Receita Roubada</h1>
-        <h2>Guacamole</h2>
+        <center>
+            <h1>Receita Roubada</h1>
+            <h2>Guacamole</h2>
+        </center>
+
+        <center>
+            <img src="img/guacamole.jpeg" alt="imagem de guacamole" title="Guacamole" width="480px" height="320px">        
+            
+            <br>            
+
+            <video width="480px" controls >
+                <source src="video/fortnite.mp4" type="video/mp4">
+
+            </video>
+
+            <br>
+
+            <audio controls >
+                <source src="audio/beep.mp3" type="audio/mpeg">
+            </audio>
+
+        <!--    <iframe width="480" height="315" src="https://www.youtube.com/embed/iqOFrOzzfrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>-->
+
+            </iframe>
+            
+        </center>
+
         <hr>
+        <h3>Ingredientes</h3>
         <ul>
-            <li>Dois(2) Abacates grande(bem <del>ma</del>duro)</li>
+            <li>Dois(2) Abacates grande(bem maduro)</li>
             <li>Duas(2) Cebolas roxa</li>
             <li>Um(1) Pacote de Doritos</li>
             <li>Quatro(4) Colheres de azeite</li>
@@ -30,5 +91,14 @@
             <li>Acrescente os ingredientes picados ao "purê" de abacate.</li>
             <li>Sirva com chips, crackers, tacos, no burrito ou mesmo junto com arroz e feijão.</li>
         </ol>
+        <hr>
+        <footer>
+            <center>
+                <small>
+                    <p>&copy; 2022 | Copiado do Marcelo</p>
+                </small>
+            </center>
+        </footer>
     </body>
+
 </html>
