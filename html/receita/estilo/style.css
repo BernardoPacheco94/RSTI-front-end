@@ -1,0 +1,99 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #D90D32, #F29C50, #02734A 49%, #FFFFFF);
+    background-attachment: fixed;
+    color: #011a10;
+    min-width: 980px;
+}
+
+hr{
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border: none;
+}
+
+img,
+video,
+iframe {
+    box-shadow: 7px 6px 7px rgba(0, 0, 0, 0.466);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.menu{
+    box-shadow: 0px 2px 7px 3px rgba(0, 0, 0, 0.281);
+    width: 480px;
+    height: 75px;
+    border-radius: 50px;
+   
+}
+
+a{
+    color: #011a10;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #011a10;
+    text-decoration: underline;
+    font-weight: bold;    
+}
+
+.img-menu{
+    box-shadow: none;
+}
+
+.img-menu:hover{
+    width: 58px;
+    transition-delay: 0.5s;
+}
+
+audio {
+    box-shadow: 7px 6px 7px rgba(0, 0, 0, 0.466);
+    border-radius: 50px;
+    width: 480px;
+}
+
+h1,
+h2,
+h3 {
+    text-decoration: underline;
+    text-align: center;
+    color: #5f0616;
+    text-shadow: 1px 1px #07070733;
+}
+
+li {
+    list-style-type: '\1F32E';
+    text-align: center;
+    list-style-position: inside;
+    padding: 5px;    
+}
+
+#quadro-imagens-esquerda{
+    border: none;
+    display: inline-block;
+    min-height: 450px;
+    max-height: 455px;
+    min-width: 235px;
+    max-width: 245px;
+    position: fixed;
+    left: 6px;
+    background-image: url('../img/ingredientes/abacate.webp');
+    background-position: center;
+}
+
+#quadro-imagens-direita{
+    border: none;
+    display: inline-block;
+    min-height: 450px;
+    max-height: 455px;
+    min-width: 235px;
+    max-width: 245px;
+    background-color: #02734A;
+    position: fixed;
+    right: 6px;
+    background-image: url('../img/ingredientes/cebola.jpeg');
+    background-position: center;
+}
