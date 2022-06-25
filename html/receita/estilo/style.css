@@ -97,3 +97,18 @@ li {
     background-image: url('../img/ingredientes/cebola.jpeg');
     background-position: center;
 }
+
+th, td{
+    border: 2px solid #011a10;
+    border-collapse: collapse;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    width: auto;
+}
+
+table{
+    margin: auto;
+    width: 480px;
+    border-collapse: collapse;
+}
