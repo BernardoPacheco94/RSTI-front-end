@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --cor0: #EBEEF2;
     --cor1: #111C26;
@@ -9,4 +17,108 @@
     --cor7: #1DA0F2;
     --cor8: #03A631;/*evitar*/
 
+    --fonte_padrao: 'M PLUS Rounded 1c', sans-serif;
+    --fonte_titulo: 'Stick No Bills', sans-serif;
+}
+
+body{
+    font-family: var(--fonte_padrao);
+    background-color: var(--cor2);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--fonte_titulo);
+}
+
+header{
+    background-color: var(--cor1);
+    color: var(--cor0);
+    text-align: center;
+    height: 110px;
+   
+}
+header > h1{
+    padding-top: 40px;
+}
+#titulo_principal{
+    padding-top: 2px;
+}
+header > p {
+    max-width: 700px;
+    margin: auto;
+}
+
+
+nav{
+    background-color: var(--cor1);
+    color: var(--cor0); 
+    padding: 10px;
+}
+nav > a {
+    color: var(--cor0);     
+    padding: 8px; 
+    margin: 2px; 
+    border-radius: 5px;     
+}
+nav > a:hover{
+    color: var(--cor0);
+    text-decoration: none;
+    background-color: var(--cor2);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor6)
+}
+a:hover{
+    text-decoration: underline;
+    color: var(--cor7);
+}
+
+section{
+    margin: 0px auto;
+    width: 70vw;
+    max-width: 650px;
+    min-width: 350px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    text-indent: 1em;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+ul > li{
+    padding: 10px;
+    list-style: none;
+}
+#lista_curiosidades{
+    padding: 10px;
+    list-style-position: unset;
+}
+
+button{
+    position: fixed;
+    top: 88%;
+    left: 88%;
+    background-color: var(--cor1);
+    color: var(--cor0);
+    border: none;
+    border-radius: 250px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+button:hover{
+    width: 45px;
+    height: 45px;
+}
+footer{
+    text-align: center;
 }
