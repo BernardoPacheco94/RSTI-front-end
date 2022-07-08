@@ -60,7 +60,7 @@ section {
     text-indent: 1em;
 }
 
-img{
+img, iframe{
     width: 100%;
     margin: auto;
 }

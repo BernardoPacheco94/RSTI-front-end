@@ -51,7 +51,7 @@ span {
     display: block;
 }
 
-iframe{
+#iframe_cross{
     height: 80px;
     width: 80px;
     animation: anim 7s infinite;
