@@ -2,19 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root{
     --cor0: #010712;
     --cor1: #13171F;
     --cor2: #1C1F26;
-    --cor3: #363944;
-    --cor4: #961227;
+    --cor3: #f8f2e6;
+    --cor4: #BF6211;
+    --cor5: #860d21;
 
     --fonte_padrao: 'M PLUS Rounded 1c', sans-serif;
+    --fonte_titulo: 'Bebas Neue', cursive, sans-serif;
 }
 
 ::-webkit-scrollbar{
-    width: 8px;
-    background-color: var(--cor3);
+    width: 5px;
+    background-color: var(--cor1);
 }
 
 ::-webkit-scrollbar-thumb{
@@ -26,4 +30,80 @@ body{
     font-family: var(--fonte_padrao);
     text-align: justify;
     text-indent: 10px;
+    background-color: var(--cor2);
+}
+
+h2,h3,h4,h5 {
+    font-family: var(--fonte_titulo);
+    color: var(--cor4);
+}
+
+a {
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline; 
+   
+}
+
+
+
+section {
+    margin: 0px auto;
+    width: 70vw;
+    max-width: 650px;
+    min-width: 350px;
+    padding: 15px;
+    background-color: var(--cor3);
+    text-indent: 1em;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+}
+
+.parallax {
+    height: 87vh;
+    width: 99vw;
+    box-shadow: inset 0px 1px 17px -5px black;
+}
+
+#parallax_dragao {
+    background: black url('../img/parallax/dragao_vermelho.jpg') center left  / cover no-repeat fixed;
+}
+
+#parallax_garota {
+    background: black url('../img/parallax/garota.jpeg') center left  / cover no-repeat fixed;
+}
+
+#parallax_bruxa {
+    background: black url('../img/parallax/bruxa.png') center / cover no-repeat fixed;
+}
+
+section#recomendacoes{
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 20px;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+ul > li{
+    padding: 10px;
+    list-style: none;
+}
+#lista_curiosidades{
+    padding: 10px;
+    list-style-position: unset;
+}
+
+footer {
+    background-color: #BF6211;
+    color: white;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
 }
