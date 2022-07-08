@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        ::-webkit-scrollbar{
+            width: 0px;
+        }
+
+        body{
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .linha {
+            position: fixed;
+            width: 100vw;
+            height: 22vh;
+            background-color: rgb(255, 255, 255);
+            top: 50%;       
+        }
+
+        #linha_1{
+            transform: translate(0%, -50%) rotate(90deg); 
+                       
+        }
+
+        #linha_2 {
+            transform: translate(0%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="linha_1" class="linha"></div>
+    <div id="linha_2" class="linha"></div>
+</body>
+</html>
