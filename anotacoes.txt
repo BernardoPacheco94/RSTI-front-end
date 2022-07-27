@@ -11,3 +11,17 @@ Back-End -> Roda no servidor
 https://www.w3c.br/ -> documentação para web
 
 WireFrame -> Estrutura visual do site
+
+
+MODELO DE NEGOCIO:
+
+SaaS
+Software as a Service - software "alugado"
+
+Market Place
+Exemplo: Uber, interliga tomador e prestador de um serviço
+
+Fintechs
+Não cobrar por certos serviços que costumeiramente são pagos
+Exemplo - nubank
+
