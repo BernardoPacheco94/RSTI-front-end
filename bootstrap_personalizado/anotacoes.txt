@@ -1,0 +1,11 @@
+https://github.com/twbs/bootstrap/releases/download/v5.2.0/bootstrap-5.2.0-examples.zip
+
+Nesse site existem Templates prontos, que são possíveis de utilizar no seu projeto, basta baixá-los.
+
+SCSS -> Extensão de um css, possibilitando trabalhar com varáveis no css
+        Necessário um "compilador" para executar o processo de variáveis.
+        Para personalização não se utiliza o CDN
+
+
+THEMEFOREST -> Sites para exemplos de temas
+
