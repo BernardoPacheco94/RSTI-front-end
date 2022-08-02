@@ -1,0 +1,26 @@
+Trilha 01:
+
+Lógica de programação:
+> https://www.youtube.com/watch?v=BTENKdRVS2U - base para iniciar na programação
+> https://www.youtube.com/watch?v=31llNGKWDdo- iniciando em Python
+> https://www.youtube.com/watch?v=nIHq1MtJaKs - exercícios
+
+HTML:
+> https://www.youtube.com/watch?v=B4FU3NFRTDw&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=9 - Diferença entre HTML, CSS e Javascript
+> https://www.youtube.com/watch?v=nhMdFe3WwYc&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=14 - Utilizando símbolos e emoji
+> https://www.youtube.com/watch?v=Jszz7M676y8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=29 - Links para downloads
+
+CSS:
+> https://www.youtube.com/watch?v=A8UNBs7nxw4&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=2 - Psicologia das cores
+> https://www.youtube.com/watch?v=E2gaDa4ZaTc&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=4 - Harmonia das cores, utilizando CSS
+> https://www.youtube.com/watch?v=D7jnoo7UHKE&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=34 - Transformando layoute em código
+
+Responsividade com bootstrap:
+> https://www.youtube.com/watch?v=Wtyj7-9eY3s - O que é Responsividade
+> https://www.youtube.com/watch?v=jsTJL6Da5wc - Iniciando com bootstrap
+> https://www.youtube.com/watch?v=3Ba6hDG5sHo - Sistema Grid
+
+Javascript
+> https://www.youtube.com/watch?v=uzEhd3Lugik&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm&index=2 - Conhecendo o Javascript
+> https://www.youtube.com/watch?v=FjT97HVT5g8&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm&index=5 - Comandos básicos
+> https://www.youtube.com/watch?v=H80nCKs9c2k&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm&index=12 - Conceito DOM
