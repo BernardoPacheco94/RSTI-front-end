@@ -9,6 +9,8 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="estilos/bootstrap.min.css">
 
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="estilos/css_personalizado.css">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="img\favicon\apple-touch-icon.png">
@@ -21,44 +23,6 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/4c5a422e1b.js" crossorigin="anonymous"></script>
-
-    <style>
-        :root{
-            --cor0: #8DFF05;
-            --cor1: #030B32;
-            --cor2: #054062;
-            --cor3: #F25508;
-            --cor4: #e7e7e7;
-        }
-
-        .text-azul-personalizado{
-            color: var(--cor1);
-        }
-
-        .text-branco-personalizado{
-            color: var(--cor4);
-        }
-
-        .background-azul-personalizado{
-            background-color: var(--cor2);
-        }
-
-        .background-laranja-personalizado{
-            background-image: linear-gradient(to right, var(--cor3), var(--cor2));
-            background-repeat: no-repeat;
-        }
-
-        .background-branco-personalizado{
-            background-color: var(--cor4);
-            border-radius: 15px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-
-        .background-gradiente-personalizado {
-            background-image: linear-gradient(to right, var(--cor3), var(--cor1));
-        }
-    </style>
 
 
     <title>Programa RS-TI</title>
@@ -78,14 +42,15 @@
                 <div class="container-fluid">
                     <a class="navbar-brand" href="https://www.senacrs.com.br/" target="_blank"><img
                             src="img/senac_logo.png" alt="logo senac"></a>
-                    <button class="navbar-toggler text-branco-personalizado background-laranja-personalizado" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler text-branco-personalizado background-laranja-personalizado"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon text-branco-personalizado"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active text-branco-personalizado" href="#header">Home</a>
+                                <a class="nav-link text-branco-personalizado" href="#header">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-branco-personalizado" href="#algoritmos">Algoritmos</a>
@@ -102,6 +67,12 @@
                             <li class="nav-item">
                                 <a class="nav-link text-branco-personalizado" href="#javascript">Javascript</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-branco-personalizado" href="#referencias">Referências</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-branco-personalizado" href="https://wa.me/5555991484707" target="_blank"><small title="Bernardo Pacheco">|  Contate o dev <i class="fa-solid fa-user-gear"></i></small></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -111,7 +82,7 @@
         <section id="algoritmos" class="pt-5 mb-5 background-branco-personalizado">
             <section id="apresentacao_algoritmos">
                 <div class="text-center">
-                    <h1><i class="fa-solid fa-laptop-code"></i> ALGORITMOS</h1>
+                    <h1 class="background-verde-personalizado"><i class="fa-solid fa-laptop-code"></i> ALGORITMOS</h1>
                 </div>
                 <div class="container">
                     <p style="text-indent: 30px; text-align: justify;">Nesse módulo é dado início a introdução à lógica
@@ -126,28 +97,28 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>Qual a base para programar?</h4>
                         <iframe width="90%" height="315" src="https://www.youtube.com/embed/BTENKdRVS2U"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>Primeiros comandos em Python</h4>
                         <iframe width="90%" height="315" src="https://www.youtube.com/embed/31llNGKWDdo"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center mb-3">
                         <h4>Exercícios propostos em Python</h4>
                         <iframe width="90%" height="315" src="https://www.youtube.com/embed/nIHq1MtJaKs"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>                        
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
 
@@ -159,10 +130,12 @@
         <section id="html" class="pt-5 mb-5 background-branco-personalizado">
             <section id="apresentacao_algoritmos">
                 <div class="text-center">
-                    <h1><i class="fa-brands fa-html5"></i> HTML 5</h1>
+                    <h1 class="background-verde-personalizado"><i class="fa-brands fa-html5"></i> HTML 5</h1>
                 </div>
                 <div class="container">
-                    <p style="text-indent: 30px; text-align: justify;">Será abordado os fundamentos da linguagem de marcação HTML. Você terá conhecimento sobre as principais tags que formam as páginas que acessamos diariamente na web.</p>
+                    <p style="text-indent: 30px; text-align: justify;">Será abordado os fundamentos da linguagem de
+                        marcação HTML. Você terá conhecimento sobre as principais tags que formam as páginas que
+                        acessamos diariamente na web.</p>
                 </div>
             </section>
 
@@ -170,17 +143,26 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>O que é e o que faz o HTML?</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/B4FU3NFRTDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/B4FU3NFRTDw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>Incorporando emojis no HTML</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/nhMdFe3WwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/nhMdFe3WwYc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center mb-3">
                         <h4> Páginas HTML com download </h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/Jszz7M676y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                      
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/Jszz7M676y8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -192,10 +174,12 @@
         <section id="css" class="pt-5 mb-5 background-branco-personalizado">
             <section id="apresentacao_algoritmos">
                 <div class="text-center">
-                    <h1><i class="fa-brands fa-css3-alt"></i> CSS 3</h1>
+                    <h1 class="background-verde-personalizado"><i class="fa-brands fa-css3-alt"></i> CSS 3</h1>
                 </div>
                 <div class="container">
-                    <p style="text-indent: 30px; text-align: justify;">Nessa etapa você aprende a estilizar o seu site, personalizando os conteúdos, cores, formas e tamanhos. Inclusive com tamanhos dinâmicos, projetos para diversas dimensões de telas.</p>
+                    <p style="text-indent: 30px; text-align: justify;">Nessa etapa você aprende a estilizar o seu site,
+                        personalizando os conteúdos, cores, formas e tamanhos. Inclusive com tamanhos dinâmicos,
+                        projetos para diversas dimensões de telas.</p>
                 </div>
             </section>
 
@@ -203,17 +187,26 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>Psicologia das cores</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/A8UNBs7nxw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/A8UNBs7nxw4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>Como escolher minhas cores</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/E2gaDa4ZaTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/E2gaDa4ZaTc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center mb-3">
                         <h4>A idéia vs o projeto</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/D7jnoo7UHKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/D7jnoo7UHKE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -225,10 +218,13 @@
         <section id="bootstrap" class="pt-5 mb-5 background-branco-personalizado">
             <section id="apresentacao_algoritmos">
                 <div class="text-center">
-                    <h1><i class="fa-brands fa-bootstrap"></i> Bootstrap</h1>
+                    <h1 class="background-verde-personalizado"><i class="fa-brands fa-bootstrap"></i> Bootstrap</h1>
                 </div>
                 <div class="container">
-                    <p style="text-indent: 30px; text-align: justify;">O Bootstrap é uma ferramenta que auxilia e agiliza o desenvolvimento de sites. Muito utilizado para trabalhar o conceito de responsividade. Você vai compreender o uso desse tipo de ferramenta e trabalhar com ela, conseguindo desenvolver páginas nageváveis e dinâmicas.</p>
+                    <p style="text-indent: 30px; text-align: justify;">O Bootstrap é uma ferramenta que auxilia e
+                        agiliza o desenvolvimento de sites. Muito utilizado para trabalhar o conceito de responsividade.
+                        Você vai compreender o uso desse tipo de ferramenta e trabalhar com ela, conseguindo desenvolver
+                        páginas nageváveis e dinâmicas.</p>
                 </div>
             </section>
 
@@ -236,17 +232,26 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>O que é responsividade?</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/Wtyj7-9eY3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/Wtyj7-9eY3s"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>Iniciando no Bootstrap</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/jsTJL6Da5wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/jsTJL6Da5wc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center mb-3">
                         <h4>O sistema Grid e seu uso</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/3Ba6hDG5sHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/3Ba6hDG5sHo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -258,10 +263,12 @@
         <section id="javascript" class="pt-5 mb-5 background-branco-personalizado">
             <section id="apresentacao_algoritmos">
                 <div class="text-center">
-                    <h1><i class="fa-brands fa-square-js"></i> Javascript</h1>
+                    <h1 class="background-verde-personalizado"><i class="fa-brands fa-square-js"></i> Javascript</h1>
                 </div>
                 <div class="container">
-                    <p style="text-indent: 30px; text-align: justify;">O Javascript é uma linguagem de programação, também é muito usada no desenvolvimento de sites e serve, principalmente para trazer interatividade em sistemas e páginas web.</p>
+                    <p style="text-indent: 30px; text-align: justify;">O Javascript é uma linguagem de programação,
+                        também é muito usada no desenvolvimento de sites e serve, principalmente para trazer
+                        interatividade em sistemas e páginas web.</p>
                 </div>
             </section>
 
@@ -269,17 +276,26 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>Apresentando o Javascript</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/BXqUH86F-kA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/BXqUH86F-kA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center pt-1 mb-3">
                         <h4>Alguns comandos básicos</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/FjT97HVT5g8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/FjT97HVT5g8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center mb-3">
                         <h4>O conceito de DOM</h4>
-                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/H80nCKs9c2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                 
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/H80nCKs9c2k"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -289,6 +305,38 @@
         </section>
 
     </main>
+
+    <footer>
+        <section id="referencias" class="pt-5 mb-1 background-branco-personalizado">
+            <section id="apresentacao_algoritmos">
+                <div class="text-center">
+                    <h1 class="background-verde-personalizado"><i class="fa-solid fa-up-right-from-square"></i>
+                        Referências</h1>
+                </div>
+                <div class="row text-center">
+                    <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+                        <a class="link-referencias" href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank"><i class="fa-solid fa-code"></i> Curso em Vídeo</a>
+                    </div>
+
+                    <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+                        <a class="link-referencias" href="https://www.youtube.com/c/Codificando" target="_blank"><i class="fa-solid fa-code"></i> Codificando</a>
+                    </div>
+
+                    <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+                        <a class="link-referencias" href="https://www.youtube.com/c/Hostingerhospedagem" target="_blank"><i class="fa-solid fa-code"></i> Hostinger Brasil</a>
+                    </div>
+
+                    <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+                        <a class="link-referencias" href="https://www.youtube.com/c/DevmediaBrasil" target="_blank"><i class="fa-solid fa-code"></i> DevMedia</a>
+                    </div>
+
+                    <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+                        <a class="link-referencias" href="https://www.youtube.com/c/codigofontetv" target="_blank"><i class="fa-solid fa-code"></i> Código Fonte TV</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </footer>
 
 
     <!-- Bootstrap -->

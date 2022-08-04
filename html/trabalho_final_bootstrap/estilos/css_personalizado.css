@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+:root {
+    --cor0: #8DFF05;
+    --cor1: #030B32;
+    --cor2: #054062;
+    --cor3: #F25508;
+    --cor4: #e7e7e7;
+}
+
+.text-azul-personalizado {
+    color: var(--cor1);
+}
+
+.text-branco-personalizado {
+    color: var(--cor4);
+}
+
+.background-azul-personalizado {
+    background-color: var(--cor2);
+}
+
+.background-laranja-personalizado {
+    background-color: var(--cor3);
+}
+
+.background-branco-personalizado {
+    background-color: var(--cor4);
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.background-verde-personalizado {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor2));
+}
+
+.background-gradiente-personalizado {
+    background-image: linear-gradient(to right, var(--cor3), var(--cor1));
+}
+
+.link-referencias {
+    color: var(--cor1);
+    text-decoration: none; 
+    font-size: 15pt;
+    font-weight: bold;           
+}
+
+.link-referencias:hover{
+    text-decoration: underline;
+}
