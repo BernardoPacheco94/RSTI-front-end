@@ -1,12 +1,14 @@
 @charset "utf-8";
 
-:root{
+:root {
     --cor0: #003B47;
     --cor1: #16BFE0;
     --cor2: #007C94;
     --cor3: #472100;
     --cor4: #D76300;
     --cor5: white;
+    --transparencia-escura: rgba(0, 0, 0, 0.605);
+    --transparencia-clara: rgba(255, 255, 255, 0.605);
 }
 
 .card-personalizado {
@@ -16,24 +18,68 @@
     position: relative;
 }
 
-.bg-personalizado-claro{
+.bg-personalizado-claro {
     background-color: var(--cor1);
     background-attachment: fixed;
 }
 
-.bg-personalizado-escuro{
+.bg-personalizado-escuro {
     background-color: var(--cor0);
     background-attachment: fixed;
 }
 
-#ola{
-    background-color: rgba(0, 0, 0, 0.405);
-    padding: 30px; 
+#ola {
+    background-color: var(--transparencia-escura);
+    padding: 30px;
     position: absolute;
     top: 15%;
-    left: 60%;
+    left: 50%;
     color: var(--cor5);
-    background-image: url('img/laptop-circuitos.jpg');    
+    min-width: 160px;
 }
 
+#container-ola {
+    background: black url('../img/laptop-circuitos.jpg') center left / cover no-repeat fixed;
+}
+
+#sobre-mim {
+    background-color: var(--transparencia-clara);
+    padding: 30px;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    color: var(--cor0);
+    text-align: right;
+}
+
+#container-sobre-mim {
+    background: var(--cor0) url('../img/tela-codigos-laptop.jpg') center right / cover no-repeat scroll;
+}
+
+
+#experiencias {
+    background-color: var(--transparencia-clara);
+    padding: 30px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: var(--cor0);
+}
+
+#container-experiencias {
+    background: var(--cor1) url('../img/laptop+cafe.jpg') center center / cover no-repeat fixed;
+}
+
+#formacao {
+    background-color: var(--transparencia-clara);
+    padding: 30px;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    color: var(--cor0);
+}
+
+#container-formacao {
+    background: var(--cor1) url('../img/mesa-desenvolvedor-fluxograma.jpg') center / cover no-repeat scroll;
+}
 

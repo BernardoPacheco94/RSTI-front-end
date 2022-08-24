@@ -15,7 +15,7 @@
     <title>Bem-vindo</title>
 </head>
 
-<body >
+<body>
     <header id="menu-principal">
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-personalizado-escuro">
             <a class="navbar-brand" href="#menu-principal">Navbar</a>
@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobre-mim">Sobre mim</a>
+                        <a class="nav-link" href="#section-sobre-mim">Sobre mim</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#formacao">Formação</a>
+                        <a class="nav-link" href="#section-formacao">Formação</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#experiencias">Experiências</a>
+                        <a class="nav-link" href="#section-experiencias">Experiências</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projetos">Projetos</a>
+                        <a class="nav-link" href="#section-projetos">Projetos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contato">Contato</a>
@@ -46,9 +46,10 @@
     </header>
 
     <section>
-        <div class="card-personalizado bg-personalizado-claro">
-            <div id="ola" class="info-personalizada col-4">
-                <h1>Olá,</h1>
+        <div id="container-ola" class="card-personalizado bg-personalizado-claro">
+            <div id="ola" class="info-personalizada col-6">
+                <h1>Hello World,</h1>
+                <br>
                 <h4>Me chamo Bernardo Pacheco</h4>
                 <h5>Sou desenvovedor Front-End</h5>
             </div>
@@ -56,63 +57,85 @@
     </section>
 
 
-    <section id="sobre-mim">
-        <div class="card-personalizado bg-personalizado-escuro">
-            <h3>Sobre mim</h3>
-            <p>Sou natural de Santa Maria - RS</p>
-            <p>Nascido em Dezembro/1994</p>
-            <p>Entusiasta da tecnologia</p>
+    <section id="section-sobre-mim">
+        <div id="container-sobre-mim" class="card-personalizado bg-personalizado-escuro">
+            <div id="sobre-mim" class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <h1>Sobre mim</h1>
+                <h6>Sou natural de Santa Maria - RS</h6>
+                <h6>Nascido em Dezembro/1994</h6>
+                <h6>Entusiasta da tecnologia</h6>
+            </div>
         </div>
     </section>
 
-    <section id="formacao">
-        <div class="card-personalizado bg-personalizado-claro">
-            <h3>Formação</h3>
-            <p>Técnico em informátia, formado pela instituição <a href="https://www.senacrs.com.br/unidade/11"
-                    target="_blank">SENAC - Santa Maria</a></p>
+
+    <section id="section-experiencias">
+        <div id="container-experiencias" class="card-personalizado bg-personalizado-escuro">
+            <div id="experiencias" class="col-6">
+                <h1>Experiências</h1>
+                <h6>Atuação na área de tecnologia, prestando suporte a softwares, pela empresa <a
+                        href="https://controlecelular.com.br" target="_blank">Sistemas & Informação</a></h6>
+            </div>
         </div>
     </section>
 
-    <section id="experiencias">
-        <div class="card-personalizado bg-personalizado-escuro">
-            <h3>Experiências</h3>
-            <p>Atuação na área de tecnologia, prestando suporte a softwares, pela empresa <a
-                    href="https://controlecelular.com.br" target="_blank">Sistemas & Informação</a></p>
+    <section id="section-formacao">
+        <div id="container-formacao" class="card-personalizado bg-personalizado-claro">
+            <div id="formacao" class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <h1>Formação</h1>
+                <h6>Técnico em informátia, formado pela instituição <a href="https://www.senacrs.com.br/unidade/11"
+                        target="_blank">SENAC - Santa Maria</a></h6>
+            </div>
         </div>
     </section>
 
-    <section id="projetos" class="container-fluid bg-personalizado-claro">
-
+    <section id="section-projetos" class="container-fluid bg-personalizado-claro">
+        <div class="row">
+            <div class="col-12 text-center mt-3">
+                <h1>PROJETOS</h1>
+            </div>
+        </div>
         <div class="row p-5">
-            <a href="https://bernardopacheco94.github.io/RSTI-front-end/html/trabalho_v2/" target="_blank">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="mb-3 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                <a href="https://bernardopacheco94.github.io/RSTI-front-end/html/trabalho_v2/" target="_blank">
                     <div class="card bg-dark text-white">
                         <img class="card-img" src="img/5dc336d0-f615-451d-b9c3-c12da7941acb.jpg" alt="Imagem do card">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Título do card</h5>
                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto Série</h5>
+                            <p class="card-text">Exercício proposto em aula, para que apresentássemos uma série usando recursos HTML e CSS.</p>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
+            <div class="mb-3 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
             <a href="https://bernardopacheco94.github.io/laChapa/index.html" target="_blank">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <div class="card bg-dark text-white">
                         <img class="card-img" src="img/5dc336d0-f615-451d-b9c3-c12da7941acb.jpg" alt="Imagem do card">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Título do card</h5>
                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto Pessoal</h5>
+                            <p class="card-text">Um wireframe, projetado para gerenciamento de pedidos em lanchonetes.</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                </a>
+            </div>
+            <div class="mb-3 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
                 <div class="card bg-dark text-white">
                     <img class="card-img" src="img/5dc336d0-f615-451d-b9c3-c12da7941acb.jpg" alt="Imagem do card">
                     <div class="card-img-overlay">
                         <h5 class="card-title">Título do card</h5>
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Pessoal - 2</h5>
+                        <p class="card-text">Sistema para salvar anotações que precisem ser utilizadas com frequência.</p>
+                    </div>
                 </div>
             </div>
-
 
         </div>
 
