@@ -68,6 +68,7 @@ img, iframe{
 .parallax {
     height: 87vh;
     width: 99.2vw;
+    margin-left: 0.4vw;
     box-shadow: inset 0px 1px 17px -5px black;
     
 }
