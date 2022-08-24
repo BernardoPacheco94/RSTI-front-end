@@ -31,6 +31,7 @@ body{
     text-align: justify;
     text-indent: 10px;
     background-color: var(--cor2);
+    overflow-x: hidden;
 }
 
 h2,h3,h4,h5 {
